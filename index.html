@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>AgroFuturo 2026 | IA no Campo</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="acessibilidade-box" class="acessibilidade-flutuante" aria-label="Ferramentas de acessibilidade">
+    <button id="btn-aumentar-fonte" aria-label="Aumentar fonte" title="Aumentar fonte">A⁺</button>
+    <button id="btn-diminuir-fonte" aria-label="Diminuir fonte" title="Diminuir fonte">A⁻</button>
+    <button id="btn-modo-escuro" aria-label="Alternar modo escuro" title="Modo escuro/claro">🌓</button>
+    <button id="btn-ler-texto" aria-label="Ouvir conteúdo principal" title="Leitura por voz">🔊</button>
+    <button id="btn-parar-leitura" aria-label="Parar leitura" title="Parar leitura">⏹️</button>
+    <button id="btn-contrate" aria-label="Contratar serviços" title="Contrate" style="background-color: #2ecc71; color: white; font-weight: bold; border: none; cursor: pointer;">🤝 Contrate</button>
+  </div>
+
+  <header class="cabecalho">
+    <div class="logo-area">
+      <span class="logo-simbolo">🌱</span>
+      <span class="logo-texto">AgroFuturo</span>
+    </div>
+    <nav class="navegacao" aria-label="Navegação principal">
+      <ul class="menu-lista">
+        <li><a href="#hero">Início</a></li>
+        <li><a href="#noticias">Notícias</a></li>
+        <li><a href="#marketplace">Marketplace</a></li>
+        <li><a href="#manuseio">Manuseio</a></li>
+        <li><a href="#seminario">Seminário IA</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="conteudo-principal">
+    <section id="hero" class="hero-banner">
+      <div class="hero-overlay">
+        <div class="hero-grid">
+          <div class="hero-texto">
+            <h1 class="hero-titulo">Agro forte e futuro sustentável</h1>
+            <p class="hero-subtitulo">Inteligência artificial no campo: produção inteligente, manejo preciso e conexão com a terra de forma inovadora.</p>
+            <a href="#seminario" class="btn-hero">Inscreva-se no Seminário</a>
+          </div>
+          <div class="hero-placeholder-imagem">
+            <div class="imagem">
+              <img src="Foto1.png" alt="Drone sobrevoando plantação com interface digital futurista">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="onda-divisoria"></div>
+    </section>
+
+    <section id="noticias" class="secao-conteudo">
+      <div class="container">
+        <h2 class="titulo-secao">🌾 Notícias do Agro Moderno</h2>
+        <p class="subtitulo-secao">Fique por dentro das inovações que estão transformando o campo</p>
+        
+        <div class="cards-grid">
+          <article class="card-informativo">
+            <div class="imagem">
+              <img src="Foto2.png" alt="Técnico analisando dados de colheita em tablet à beira do campo">
+            </div>
+            <div class="card-texto">
+              <span class="categoria">Tecnologia</span>
+              <h3>IA na Previsão de Safras</h3>
+              <p>Algoritmos analisam clima, solo e histórico para estimar colheitas com 98% de precisão, reduzindo riscos e aumentando a produtividade.</p>
+              <button class="btn-expandir" aria-expanded="false">Detalhes da notícia</button>
+              <div class="conteudo-expansivel" hidden>
+                <p>Startups brasileiras já utilizam redes neurais para cruzar dados de satélites e estações meteorológicas. O resultado é uma economia de até 30% em insumos agrícolas e redução significativa de perdas.</p>
+              </div>
+            </div>
+          </article>
+          
+          <article class="card-informativo">
+            <div class="imagem">
+              <img src="Foto3.png" alt="Robô agrícola realizando plantio de precisão em estufa high-tech">
+            </div>
+            <div class="card-texto">
+              <span class="categoria">Robótica</span>
+              <h3>Robótica Sustentável</h3>
+              <p>Novos robôs identificam ervas daninhas e aplicam defensivos apenas onde necessário, diminuindo impacto ambientação.</p>
+              <button class="btn-expandir" aria-expanded="false">Detalhes da notícia</button>
+              <div class="conteudo-expansivel" hidden>
+                <p>Equipamentos com visão computacional conseguem diferenciar culturas de invasoras em tempo real. A tecnologia já está disponível para pequenos produtores via cooperativas.</p>
+              </div>
+            </div>
+          </article>
+          
+          <article class="card-informativo">
+            <div class="imagem">
+              <img src="Foto1.png" alt="Painel solar integrado a sistema de irrigação inteligente">
+            </div>
+            <div class="card-texto">
+              <span class="categoria">Sustentabilidade</span>
+              <h3>Energia & Irrigação Smart</h3>
+              <p>Sensores de umidade combinados com IA acionam irrigação apenas quando necessário, economizando água e energia.</p>
+              <button class="btn-expandir" aria-expanded="false">Detalhes da notícia</button>
+              <div class="conteudo-expansivel" hidden>
+                <p>Fazendas conectadas utilizam placas solares para alimentar bombas inteligentes. A gestão hídrica atinge eficiência de 95% comparado aos métodos tradicionais.</p>
+              </div>
+            </div>
+          </article>
+
+          <article class="card-informativo">
+            <div class="imagem">
+              <img src="Foto2.png" alt="Agricultor utilizando óculos de realidade aumentada no campo">
+            </div>
+            <div class="card-texto">
+              <span class="categoria">Inovação</span>
+              <h3>Realidade Aumentada no Campo</h3>
+              <p>Óculos inteligentes fornecem dados em tempo real sobre saúde das plantas, pragas e necessidades nutricionais.</p>
+              <button class="btn-expandir" aria-expanded="false">Detalhes da notícia</button>
+              <div class="conteudo-expansivel" hidden>
+                <p>A tecnologia de AR permite que agricultores visualizem mapas de calor das lavouras, identificando zonas de estresse hídrico ou nutricional sem necessidade de análises laboratoriais demoradas.</p>
+              </div>
+            </div>
+          </article>
+          
+          <article class="card-informativo">
+            <div class="imagem">
+              <img src="Foto3.png" alt="Drones pulverizadores sobrevoando plantação de soja">
+            </div>
+            <div class="card-texto">
+              <span class="categoria">Drones</span>
+              <h3>Pulverização de Precisão</h3>
+              <p>Drones autônomos realizam pulverização localizada, reduzindo em até 90% o uso de defensivos agrícolas.</p>
+              <button class="btn-expandir" aria-expanded="false">Detalhes da notícia</button>
+              <div class="conteudo-expansivel" hidden>
+                <p>Equipados com câmeras multiespectrais, os drones mapeiam as áreas afetadas e aplicam produtos apenas nos focos identificados, preservando áreas saudáveis e reduzindo custos operacionais.</p>
+              </div>
+            </div>
+          </article>
+          
+          <article class="card-informativo">
+            <div class="imagem">
+              <img src="Foto1.png" alt="Tela de computador mostrando dashboard de blockchain para rastreabilidade">
+            </div>
+            <div class="card-texto">
+              <span class="categoria">Blockchain</span>
+              <h3>Rastreabilidade Total</h3>
+              <p>Tecnologia blockchain garante transparência na cadeia produtiva, do plantio até a mesa do consumidor.</p>
+              <button class="btn-expandir" aria-expanded="false">Detalhes da notícia</button>
+              <div class="conteudo-expansivel" hidden>
+                <p>Cada etapa da produção é registrada em blocos imutáveis, permitindo que consumidores verifiquem a origem, manejo e certificações dos produtos através de QR Code na embalagem.</p>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="manuseio" class="secao-manuseio">
+      <div class="container">
+        <h2 class="titulo-secao">📋 Guia de Manuseio Adequado</h2>
+        <p class="subtitulo-secao">Boas práticas para preservar a qualidade dos produtos rurais</p>
+        
+        <div class="manuseio-grid">
+          <div class="manuseio-card">
+            <div class="imagem">
+              <img src="Foto2.png" alt="Trabalhador realizando colheita manual com equipamentos de proteção">
+            </div>
+            <h3>Colheita no Ponto Ideal</h3>
+            <p>Identifique o momento exato de maturação utilizando sensores de umidade e análise visual para garantir máxima qualidade.</p>
+          </div>
+          
+          <div class="manuseio-card">
+            <div class="imagem">
+              <img src="Foto3.png" alt="Câmara fria com produtos agrícolas organizados em prateleiras">
+            </div>
+            <h3>Armazenamento Refrigerado</h3>
+            <p>Mantenha temperatura entre 2°C e 8°C para hortaliças, utilizando câmaras com controle automatizado de umidade.</p>
+          </div>
+          
+          <div class="manuseio-card">
+            <div class="imagem">
+              <img src="Foto1.png" alt="Embalagens biodegradáveis com produtos orgânicos">
+            </div>
+            <h3>Embalagens Inteligentes</h3>
+            <p>Utilize materiais biodegradáveis com sensores de frescor que indicam a vida útil restante do produto.</p>
+          </div>
+          
+          <div class="manuseio-card">
+            <div class="imagem">
+              <img src="Foto2.png" alt="Caminhão de transporte com sistema de refrigeração e monitoramento">
+            </div>
+            <h3>Transporte Monitorado</h3>
+            <p>Veículos equipados com GPS e sensores de temperatura garantem a integridade dos produtos durante toda a logística.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="marketplace" class="secao-marketplace">
+      <div class="container">
+        <h2 class="titulo-secao">🛒 Vitrine Rural • Compre & Venda</h2>
+        <p class="subtitulo-secao">Produtos de qualidade diretamente do produtor</p>
+        
+        <div class="marketplace-grid">
+          <div class="produto-card">
+            <div class="imagem">
+              <img src="Foto3.png" alt="Saco de grãos de café especiais com selo de origem controlada">
+            </div>
+            <span class="categoria">Grãos</span>
+            <h3>Café Arábica Premium</h3>
+            <p>Grãos selecionados com rastreabilidade digital. Safra 2025/2026.</p>
+            <div class="produto-footer">
+              <span class="preco">R$ 1.250,00 / saca</span>
+              <button class="btn-comprar">Comprar</button>
+            </div>
+          </div>
+          
+          <div class="produto-card">
+            <div class="imagem">
+              <img src="Foto1.png" alt="Kit de sensores de solo IoT para agricultura de precisão">
+            </div>
+            <span class="categoria">Tecnologia</span>
+            <h3>Kit Sensor Solo IoT</h3>
+            <p>Monitoramento em tempo real de NPK, pH e umidade. Conectividade 4G.</p>
+            <div class="produto-footer">
+              <span class="preco">R$ 2.199,00</span>
+              <button class="btn-comprar">Comprar</button>
+            </div>
+          </div>
+          
+          <div class="produto-card">
+            <div class="imagem">
+              <img src="Foto2.png" alt="Cestas de frutas orgânicas variadas">
+            </div>
+            <span class="categoria">Orgânicos</span>
+            <h3>Cesta de Frutas Orgânicas</h3>
+            <p>Mix semanal com frutas da estação certificadas, entregues na porta da sua casa.</p>
+            <div class="produto-footer">
+              <span class="preco">R$ 89,90 / semana</span>
+              <button class="btn-comprar">Comprar</button>
+            </div>
+          </div>
+          
+          <div class="produto-card">
+            <div class="imagem">
+              <img src="Foto3.png" alt="Sementes crioulas embaladas em pacotes kraft">
+            </div>
+            <span class="categoria">Insumos</span>
+            <h3>Banco de Sementes Crioulas</h3>
+            <p>Variedades tradicionais adaptadas ao clima local. Preserve a biodiversidade.</p>
+            <div class="produto-footer">
+              <span class="preco">R$ 35,00 / kit</span>
+              <button class="btn-comprar">Comprar</button>
+            </div>
+          </div>
+          
+          <div class="produto-card">
+            <div class="imagem">
+              <img src="Foto1.png" alt="Mel em potes de vidro com favo">
+            </div>
+            <span class="categoria">Apicultura</span>
+            <h3>Mel Silvestre Puro</h3>
+            <p>Produzido em reserva nativa, sem aditivos. Rico em propriedades nutracêuticas.</p>
+            <div class="produto-footer">
+              <span class="preco">R$ 45,00 / 500g</span>
+              <button class="btn-comprar">Comprar</button>
+            </div>
+          </div>
+          
+          <div class="produto-card">
+            <div class="imagem">
+              <img src="Foto2.png" alt="Drone agrícola com tanque de pulverização">
+            </div>
+            <span class="categoria">Equipamentos</span>
+            <h3>Drone Pulverizador DJI Agras</h3>
+            <p>Autonomia de 30 minutos, capacidade de 20L. Ideal para pequenas e médias propriedades.</p>
+            <div class="produto-footer">
+              <span class="preco">R$ 85.000,00</span>
+              <button class="btn-comprar">Comprar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="linha-interativa">
+      <aside id="seminario" class="formulario-seminario" aria-label="Inscrição seminário online">
+        <div class="form-header">
+          <span class="icone-form">🤖</span>
+          <h2>IA aliada do Campo</h2>
+        </div>
+        <p>Inscreva-se no nosso seminário on-line e descubra como a inteligência artificial está revolucionando a agricultura.</p>
+        <form id="form-inscricao" action="#" method="post">
+          <div class="campo-form">
+            <label for="nome">Nome</label>
+            <input type="text" id="nome" name="nome" placeholder="Seu nome completo" required>
+          </div>
+          <div class="campo-form">
+            <label for="email">E-mail</label>
+            <input type="email" id="email" name="email" placeholder="email@exemplo.com" required>
+          </div>
+          <div class="campo-form">
+            <label for="cidade">Cidade</label>
+            <input type="text" id="cidade" name="cidade" placeholder="Sua cidade">
+          </div>
+          <div class="campo-form linha-dupla">
+            <div>
+              <label for="estado">Estado</label>
+              <input type="text" id="estado" name="estado" placeholder="UF">
+            </div>
+            <div>
+              <label for="pais">País</label>
+              <input type="text" id="pais" name="pais" value="Brasil">
+            </div>
+          </div>
+          <button type="submit" class="btn-moderno">Inscrever-se agora</button>
+        </form>
+      </aside>
+
+      <section class="area-comentarios" aria-label="Área de comentários">
+        <h2>💬 Compartilhe sua experiência</h2>
+        <p>Conte como a tecnologia tem ajudado no campo e troque ideias com outros produtores.</p>
+        <form id="form-comentario" action="#" method="post">
+          <div class="campo-form">
+            <label for="comentario-texto">Seu comentário</label>
+            <textarea id="comentario-texto" name="comentario" rows="4" placeholder="Conte como a tecnologia tem ajudado no campo..."></textarea>
+          </div>
+          <button type="submit" class="btn-moderno btn-enviar">Enviar comentário</button>
+        </form>
+        <div id="lista-comentarios" class="comentarios-exibidos">
+          </div>
+      </section>
+    </div>
+  </main>
+
+  <footer class="rodape">
+    <div class="rodape-grid">
+      <div class="rodape-coluna">
+        <h3>AgroFuturo 2026</h3>
+        <p>Conectando a inteligência tecnológica à terra de forma sustentável</p>
+      </div>
+      <div class="rodape-coluna">
+        <h3>Referências</h3>
+        <ul>
+          <li><a href="https://www.bemagro.com/beneficios-inteligencia-artificial-no-campo/" target="_blank" rel="noopener">BemAgro - IA no Campo</a></li>
+          <li><a href="https://www.agrolink.com.br/noticias/o-campo-conectado--como-a-ia-vem-transformando-o-agro_514351.html" target="_blank" rel="noopener">Agrolink - Campo Conectado</a></li>
+        </ul>
+      </div>
+      <div class="rodape-coluna">
+        <h3>Contato</h3>
+        <p>contato@agrofuturo.com.br</p>
+        <p>0800 123 4567</p>
+      </div>
+    </div>
+    <div class="rodape-direitos">
+      <p>&copy; 2026 AgroFuturo. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      
+      // --- 1. SCRIPT DE AUMENTAR E DIMINUIR A LETRA ---
+      const htmlElement = document.documentElement; // Altera direto na raiz para redimensionar em rem/em
+      let tamanhoFonteAtual = 100; // Começa em 100%
+
+      const btnAumentar = document.getElementById("btn-aumentar-fonte");
+      const btnDiminuir = document.getElementById("btn-diminuir-fonte");
+
+      btnAumentar.addEventListener("click", () => {
+        if (tamanhoFonteAtual < 150) { // Limite máximo para não quebrar o layout
+          tamanhoFonteAtual += 10;
+          htmlElement.style.fontSize = `${tamanhoFonteAtual}%`;
+        }
+      });
+
+      btnDiminuir.addEventListener("click", () => {
+        if (tamanhoFonteAtual > 80) { // Limite mínimo de legibilidade
+          tamanhoFonteAtual -= 10;
+          htmlElement.style.fontSize = `${tamanhoFonteAtual}%`;
+        }
+      });
+
+
+      // --- 2. SCRIPT DE LEITURA DE VOZ (SÍNTESE DE VOZ) ---
+      const btnLer = document.getElementById("btn-ler-texto");
+      const btnParar = document.getElementById("btn-parar-leitura");
+      const conteudoParaLer = document.getElementById("conteudo-principal");
+
+      btnLer.addEventListener("click", () => {
+        // Para qualquer leitura em andamento antes de iniciar a nova
+        window.speechSynthesis.cancel();
+
+        // Captura apenas os textos visíveis dentro do escopo principal
+        const textoFormatado = conteudoParaLer.innerText;
+
+        if (textoFormatado.trim() !== "") {
+          const fala = new SpeechSynthesisUtterance(textoFormatado);
+          fala.lang = "pt-BR"; // Define o idioma para Português do Brasil
+          fala.rate = 1.15;    // Velocidade da voz ligeiramente acelerada para fluidez
+
+          window.speechSynthesis.speak(fala);
+        }
+      });
+
+      btnParar.addEventListener("click", () => {
+        // Pausa e cancela a fala imediatamente
+        window.speechSynthesis.cancel();
+      });
+
+
+      // --- 3. SCRIPT DO BOTÃO CONTRATE ---
+      const btnContrate = document.getElementById("btn-contrate");
+      btnContrate.addEventListener("click", () => {
+        // Faz a página descer suavemente até a área do formulário de contato/inscrição
+        const secaoAlvo = document.getElementById("seminario");
+        if(secaoAlvo) {
+          secaoAlvo.scrollIntoView({ behavior: "smooth" });
+          // Dá foco automático no primeiro campo do formulário
+          document.getElementById("nome").focus();
+        }
+      });
+
+      // --- SCRIPT EXTRA (Opcional): Alternar Modo Escuro simples se necessário ---
+      const btnModoEscuro = document.getElementById("btn-modo-escuro");
+      btnModoEscuro.addEventListener("click", () => {
+        document.body.classList.toggle("modo-escuro");
+      });
+    });
+  </script>
+</body>
+</html>
